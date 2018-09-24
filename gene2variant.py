@@ -6,7 +6,7 @@ import re
 import json
 import urllib
 
-gene_name = raw_input("Enter gene name ")
+gene_name = raw_input("Please type your gene name, all caps, and press enter : ")
 
 # get gene_ID from file
 
