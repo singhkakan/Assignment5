@@ -1,4 +1,4 @@
-#!usr/bin/python
+#!/usr/bin/python
 
 import sys
 import fileinput
@@ -41,4 +41,4 @@ for i in json_output:
         print "Variant " + x + " is a " + a + "."
     else:
         for b in z:
-            print "Variant " + x + " is a" + a + ", and is clinically " + b.upper()
+            print "Variant " + x + " is a " + a + ", and is clinically " + b.upper()
